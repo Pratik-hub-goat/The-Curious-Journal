@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f1e9">
+  <meta name="description" content="Read thoughtful stories at The Curious Journal.">
+
+  <title>Story | The Curious Journal</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="article.css">
+
+  <script src="article.js" defer></script>
+</head>
+
+<body class="article-page">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="article-header">
+    <a class="article-logo" href="index.html">
+      <span class="logo-mark">cj.</span>
+      <span>The Curious Journal</span>
+    </a>
+
+    <button
+      class="article-menu-button"
+      id="articleMenuButton"
+      type="button"
+      aria-expanded="false"
+      aria-controls="articleNavigation"
+    >
+      Menu ☰
+    </button>
+
+    <nav id="articleNavigation" class="article-navigation">
+      <a href="index.html">Home</a>
+      <a href="blog.html">All Stories</a>
+      <a href="index.html#topics">Topics</a>
+      <a href="index.html#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <div class="article-back">
+      <a href="blog.html">← Back to all stories</a>
+    </div>
+
+    <article id="articleContent" class="article-container">
+      <p class="article-loading">Loading story...</p>
+    </article>
+
+    <section class="related-section">
+      <p class="article-eyebrow">KEEP EXPLORING</p>
+      <h2>More to <em>wonder about.</em></h2>
+
+      <div id="relatedStories" class="related-stories"></div>
+
+      <a class="article-back-button" href="blog.html">
+        Explore all stories →
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="article-footer">
+    <a class="article-logo" href="index.html">
+      <span class="logo-mark">cj.</span>
+      <span>The Curious Journal</span>
+    </a>
+
+    <p>
+      Made for the curious.
+      © <span id="articleYear"></span>
+    </p>
+  </footer>
+
+</body>
+</html>
+
